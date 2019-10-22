@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
   height: 80px;
 }
 
@@ -14,8 +14,8 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.App-beers {
+  color: red;
 }
 
 @keyframes App-logo-spin {
