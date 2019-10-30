@@ -21,10 +21,9 @@ handleChange(filter){
 
 
   render() {
-
-    let beerDisplay = this.state.beerList
-      .filter((element, index) => {
-        return element.includes(this.state.filterString)
+    const {filterString, beerList} = this.state;
+    let beerDisplay = beerList.filter(element => {
+        return element.includes(filterString)
       })
       .map((element, index) => {
         return <h2 key={index}> {element}</h2>
