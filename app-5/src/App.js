@@ -1,18 +1,14 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import ImgComp from './ImgComp';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ImgComp url={'https://hollywoodsuite.ca/wp-content/uploads/2016/07/not-worthy.gif'}/>
+        <div>“We’re not worthy… we’re not worthy!” —Wayne and Garth to Alice Cooper</div>
       </div>
     );
   }
