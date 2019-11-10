@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+
 import beer from "./beer.png"
 
 import "./App.css";
